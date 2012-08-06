@@ -2,6 +2,8 @@
 include_once('markdown.php');
 $source = $_POST['markdown'];
 $render = Markdown($source);
+
+// provides enhanced pre classes for use with code prettification libraries
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
