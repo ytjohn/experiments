@@ -2,7 +2,11 @@
 include_once('markdown.php');
 $source = $_POST['markdown'];
 $render = Markdown($source);
+
+// dingus3.php - includes Google Prettify stylesheet and css for use in the preview
 ?>
+
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
